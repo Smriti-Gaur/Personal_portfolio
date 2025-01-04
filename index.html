@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smriti's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Smriti's Portfolio</div>
+      <div class="right"></div>
+      <ul>
+        <li id="home" class="icons">Home</li>
+        <li id="about" class="icons">About</li>
+        <li id="project" class="icons">Projects</li>
+        <li id="contact" class="icons">Contact</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        <div>Hi, My name is <span class="purple">smriti</span></div>
+        <div>and I am a passionate</div>
+        <span id="element"></span>
+        <br>
+        <br>
+      </div>
+      <div class="rightsection">
+        <img src="img.png" alt="image">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/smriti-gaur-6163ba30b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Smriti-Gaur" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+    <div class="footer-rigts">
+      Copright &#169;smriti'portfolio || All rights reserved
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['web developer...', ' learner...'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
